@@ -1,0 +1,51 @@
+/* Neki stilovi za tablicu. Nadopunite ostalo!*/
+.slova {
+	width: 30px;
+	border-style: solid;
+	border-width: 1px;
+}
+.broj {
+	height: 30px;
+	border-style: solid;
+	border-width: 1px;
+}
+.bijelo_polje{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.crno_polje {
+	width: 30px;
+	height: 30px;
+	background-color: burlywood;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.plavo_polje{
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+body{
+	background-color: lightblue;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+}
